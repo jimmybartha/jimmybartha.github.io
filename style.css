@@ -1,0 +1,161 @@
+/*body*/
+body{
+	margin: 20px 0;
+	padding: 0;
+	background-color: #5B5F4C;
+	width: 70%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*navigation bar*/
+nav{
+	text-align: center;
+	background-color: #373A43;
+	padding: 1px 0;
+	margin: 0;
+	border: 4px ridge #122119;
+}
+
+nav ul li{
+	padding: 0;
+	margin: 4px;
+	display: inline;
+	float: left:
+}
+
+nav ul li a{
+	margin: 0;
+	padding: 6px 10px;
+	background-color: #646875;
+	color: #13161F;
+	text-decoration: none;
+	font-family: calibri, ariel, serif;
+	font-size: 15pt;
+	font-style: normal;
+	font-weight: 600;
+	border: 2px solid #fff;
+	border-radius: 10px;
+}
+
+nav ul li a:hover{
+	background-color: #AD9790;
+	color: blue;
+}
+
+
+/*headings*/
+h1{
+	margin: 30px 20px;
+	padding: 5px 0px;
+	background-color: #A1A68B;
+	color: #24101E;
+	font-family: verdana, arial, sans-serif;
+	font-size: 32pt;
+	text-align: center;
+	border-width: 3px;
+	border-style: solid;
+	border-radius: 30px;
+	border-color: #2E1E19;
+}
+
+h2{
+	margin: 50px 0 15px 0;
+	color: #13161F;
+	font-family: cambria, sans-serif;
+	font-size: 24pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+h3{
+	margin: 40px 30px 15px 30px;
+	color: 13161F;
+	font-family: cambria, sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+
+/*paragraphs*/
+p{
+	margin: 0px 50px 15px 50px;
+	color: #070809;
+	text-indent: 30px;
+	font-family: calibri, ariel, serif;
+	font-size: 12pt;
+}
+
+p.intro{
+	margin: 50px 0 0 0;
+	padding: 0;
+	color: #070809;
+	text-indent: 0;
+	text-align: center;
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+p.intro a{
+	color: #13161F;
+	text-decoration: none;
+}
+
+p a{
+	color: #13161F;
+}
+
+p a:hover{
+	color: blue;
+}
+
+
+/*home page image*/
+p a img{
+	margin: 30px 0 0 0;
+	padding: 0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	border: 5px solid #fff;
+	border-radius: 3px;
+}
+
+
+/*lists (located in paragraphs)*/
+ol li{
+	margin-left: 50px;
+	color: #070809;
+	font-family: calibri, ariel, serif;
+	font-size: 13pt;
+	list-style-type: none;
+}
+
+ol li p{
+	margin-left: 20px;
+	text-indent: 0;
+}
+
+
+/*works cited content*/
+ul li{
+	margin-left: 50px;
+	list-style-type: square;
+}
+
+ul li a{
+	margin-left: 10px;
+	color: #13161F;
+	font-family: calibri, ariel, serif;
+	font-size: 12pt;
+	text-decoration: none;
+	line-height: 2;
+	list-style-type: square;
+}
+
+ul li a:hover{
+	color: blue;
+}
